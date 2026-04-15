@@ -1,5 +1,6 @@
 # Application Specific
 chat/
+nb/
 
 # Python
 __pycache__/
