@@ -1,0 +1,19 @@
+# Application Specific
+chat/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+
+# Environment variables
+.env
+
+# Git
+.git
+.gitignore
+
+# OS Junk
+.DS_Store
