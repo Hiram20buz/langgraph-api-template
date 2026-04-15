@@ -15,3 +15,14 @@ curl -X POST http://localhost:8000/chat \
      -H "Content-Type: application/json" \
      -d '{"message": "Hola, ¿quién eres?", "user_id": "ricardo_test_1"}'
 ```
+
+### Deployment
+
+```bash
+gcloud run deploy langgraph-service \
+  --source . \
+  --region us-central1 \
+  --allow-unauthenticated \
+  --port 8000 \
+  --set-env-vars="OPENAI_API_KEY=your_key_here"
+```
