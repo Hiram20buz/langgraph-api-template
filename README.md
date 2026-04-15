@@ -26,3 +26,5 @@ gcloud run deploy langgraph-service \
   --port 8000 \
   --set-env-vars="OPENAI_API_KEY=your_key_here"
 ```
+
+<img width="1707" height="984" alt="Screenshot 2026-04-15 at 9 33 11 a m" src="https://github.com/user-attachments/assets/3f312af7-44dc-45b6-9f8b-fd2f20aa9d26" />
